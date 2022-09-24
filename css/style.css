@@ -166,7 +166,7 @@
 	color: #000105;
 }
 .background3 {
-	background: #b6b3b1 url("./img/sky.webp") 50% 80% / cover no-repeat;
+	background: #b6b3b1 url("img/sky.webp") 50% 80% / cover no-repeat;
 	margin: 0 auto 40px;
 	max-width: 810px;
 }
