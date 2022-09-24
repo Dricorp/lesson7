@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400;1,900&display=swap");
+@font-face {
+	font-family: "Lato";
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/lato/v23/S6u8w4BMUTPHjxswWw.ttf) format("truetype");
+}
+@font-face {
+	font-family: "Lato";
+	font-style: italic;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/lato/v23/S6u_w4BMUTPHjxsI3wiPHA.ttf) format("truetype");
+}
+@font-face {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHvxk.ttf) format("truetype");
+}
+@font-face {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/lato/v23/S6u9w4BMUTPHh50Xew8.ttf) format("truetype");
+}
+
+/*=============================*/
+.body {
+	font-family: "Lato";
+}
+.header {
+	max-width: 810px;
+	margin: 20px auto 118px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 160%;
+}
+.header__logo {
+	margin: 0 60px 0 0;
+}
+.image__logo {
+}
+.header__about {
+	margin: 0 40px 0 0;
+}
+.header__courses {
+	margin: 0 40px 0 0;
+}
+.header__events {
+	margin: 0 40px 0 0;
+}
+.header__blog {
+	margin: 0 40px 0 0;
+	color: #ff3f3a;
+}
+.header__contacts {
+}
+
+/*============*/
+
+.main {
+	max-width: 810px;
+	margin: 0 auto;
+	color: #1e212c;
+}
+.main-top {
+	margin: 0 0 92px 0;
+}
+.main-top__h1text {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+}
+.main-image {
+	margin: 0 0 60px 0;
+}
+.main-image__image {
+	max-width: 100%;
+}
+.main-text {
+	margin: 0 0 24px 0;
+}
+.main-text__h2text {
+	margin: 0 0 24px 0;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1e212c;
+}
+.main-text__text1 {
+	margin: 0 0 39px 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+.main-text__text2 {
+	margin: 0 0 48px 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+.main-text__h2text1 {
+	margin: 0 0 48px 0;
+	padding: 0 0 0 60px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1e212c;
+}
+.main-text__textul {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+.main-list {
+	margin: 0 0 24px 0;
+}
+.main-list__ul li {
+	padding: 0 0 0 37px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+.main-botom {
+	margin: 0 0 50px 0;
+}
+.main-botom__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+
+/*====================*/
+.background1 {
+	background: #b6b3b1 url("/img/sky.webp") no-repeat bottom;
+	margin: 0 0 40px 0;
+}
+.background1__test {
+	max-width: 810px;
+	margin: 0 auto;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #000105;
+}
+
+.background2 {
+	background: #b6b3b1 url("/img/sky.webp") fixed no-repeat 50% 50%;
+	margin: 0 0 40px 0;
+}
+.background2__test {
+	max-width: 810px;
+	margin: 0 auto;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #000105;
+}
+.background3 {
+	background: #b6b3b1 url("/img/sky.webp") 50% 80% / cover no-repeat;
+	margin: 0 auto 40px;
+	max-width: 810px;
+}
+.background3__test {
+	margin: 0 auto;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #000105;
+}
+
+.background4 {
+	background: linear-gradient(
+		90deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(220, 228, 19, 0.311659698058911) 35%,
+		rgba(255, 166, 0, 1) 100%
+	);
+}
+.background4__test {
+	max-width: 810px;
+	margin: 0 auto 45px;
+	padding: 70px 0px;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 160%;
+	color: #000105;
+	text-align: center;
+}
+.background5 {
+	background: url("/img/Navbar/logo.png") no-repeat 10% 30% / 100px,
+		linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(220, 228, 19, 0.311659698058911) 35%, rgba(255, 166, 0, 1) 100%);
+}
+.background5__test {
+	max-width: 810px;
+	margin: 0 auto;
+	padding: 70px 0px;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 160%;
+	color: #000105;
+	text-align: center;
+}
