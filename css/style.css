@@ -212,7 +212,7 @@
 
 /*====================*/
 .background1 {
-	background: #b6b3b1 url("./img/sky.webp") no-repeat bottom;
+	background: #b6b3b1 url("../img/sky.webp") no-repeat bottom;
 	margin: 0 0 40px 0;
 }
 .background1__test {
@@ -225,7 +225,7 @@
 }
 
 .background2 {
-	background: #b6b3b1 url("./img/sky.webp") fixed no-repeat 50% 50%;
+	background: #b6b3b1 url("../img/sky.webp") fixed no-repeat 50% 50%;
 	margin: 0 0 40px 0;
 }
 .background2__test {
@@ -237,7 +237,7 @@
 	color: #000105;
 }
 .background3 {
-	background: #b6b3b1 url("./img/sky.webp") 50% 80% / cover no-repeat;
+	background: #b6b3b1 url("../img/sky.webp") 50% 80% / cover no-repeat;
 	margin: 0 auto 40px;
 	max-width: 810px;
 }
@@ -268,7 +268,7 @@
 	text-align: center;
 }
 .background5 {
-	background: url("./img/Navbar/logo.png") no-repeat 10% 30% / 100px,
+	background: url("../img/Navbar/logo.png") no-repeat 10% 30% / 100px,
 		linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(220, 228, 19, 0.311659698058911) 35%, rgba(255, 166, 0, 1) 100%);
 }
 .background5__test {
