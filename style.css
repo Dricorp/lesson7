@@ -212,7 +212,7 @@
 
 /*====================*/
 .background1 {
-	background: #b6b3b1 url("../img/sky.webp") no-repeat bottom;
+	background: #b6b3b1 url("../img/sky.webp") bottom / cover no-repeat;
 	margin: 0 0 40px 0;
 }
 .background1__test {
@@ -225,8 +225,9 @@
 }
 
 .background2 {
-	background: #b6b3b1 url("../img/sky.webp") fixed no-repeat 50% 50%;
+	background: #b6b3b1 url("../img/sky.webp") 50% 50% / cover no-repeat fixed;
 	margin: 0 0 40px 0;
+}
 }
 .background2__test {
 	max-width: 810px;
