@@ -197,7 +197,7 @@
 	text-align: center;
 }
 .background5 {
-	background: url("./img/Navbar/logo.png") no-repeat 10% 30% / 100px,
+	background: url("img/Navbar/logo.png") no-repeat 10% 30% / 100px,
 		linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(220, 228, 19, 0.311659698058911) 35%, rgba(255, 166, 0, 1) 100%);
 }
 .background5__test {
