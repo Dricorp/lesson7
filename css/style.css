@@ -34,7 +34,7 @@
 }
 .header {
 	max-width: 810px;
-	margin: 20px auto 118px;
+	margin: 20px auto 80px;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 160%;
@@ -67,14 +67,85 @@
 	margin: 0 auto;
 	color: #1e212c;
 }
+.main-source {
+	margin: 0 0 12px 0;
+}
+.main-source__imgdoc {
+	padding: 4px 8px 0 0;
+}
+.main-source__name {
+	display: inline-block;
+	padding: 0 12px 0 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+.main-source__divider {
+	display: inline-block;
+	padding: 4px 12px 0 0;
+}
+.main-source__sour {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 160%;
+	color: #ff3f3a;
+}
+
 .main-top {
-	margin: 0 0 92px 0;
+	margin: 0 0 26px 0;
 }
 .main-top__h1text {
 	font-weight: 900;
 	font-size: 46px;
 	line-height: 130%;
 }
+.main-time {
+}
+.main-time__icon {
+	margin: 0 8px 40px 0;
+	padding: 4px 0 0 0;
+}
+.main-time__date {
+	display: inline-block;
+	margin: 0 24px 0 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #787a80;
+}
+.main-time__clock {
+	margin: 0 8px 0 0;
+	padding: 4px 0 0 0;
+}
+.main-time__duration {
+	margin: 0 410px 0 0;
+	display: inline-block;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #787a80;
+}
+.main-time__share {
+	display: inline-block;
+	margin: 0 12px 0 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #1e212c;
+}
+.main-time__facebook {
+	margin: 0 12px 0 0;
+}
+.main-time__twitter {
+	display: inline-block;
+	margin: 0 12px 0 0;
+	padding: px 0 0 0;
+}
+.main-time__linkedin {
+}
+
 .main-image {
 	margin: 0 0 60px 0;
 }
